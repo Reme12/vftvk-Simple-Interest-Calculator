@@ -2,3 +2,48 @@ body {background-color:tan;}
 h1{color:green;}
 
 
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+  }
+  h1 {
+    color: grey;
+    font-family: verdana;
+  }
+  .maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contentInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .contentElement {
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  #rate_val {
+    font-weight: bold;
+  }
+
+  .text {
+    width: 120px;
+  }
+
+  .result {
+    text-align: start;
+  }
+
